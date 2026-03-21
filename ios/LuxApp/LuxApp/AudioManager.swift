@@ -1,4 +1,5 @@
 import Foundation
+import Combine
 
 /// Manages audio recording and on-device speech-to-text transcription via WhisperKit.
 ///
