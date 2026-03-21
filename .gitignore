@@ -1,0 +1,54 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.resolved
+
+# CocoaPods (not used, but just in case)
+Pods/
+Podfile.lock
+
+# Carthage (not used, but just in case)
+Carthage/Build/
+Carthage/Checkouts/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives
+*.xcarchive
